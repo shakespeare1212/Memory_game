@@ -1,0 +1,39 @@
+#topMessage {
+  position: absolute;
+  top: 60px;
+  left: 120px;
+}
+
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 145px;
+  width: 400px;
+  height: 400px;
+}
+
+.modal {
+  position: absolute;
+  top: 220px;
+  left: 100px; 
+  padding: 1 em;
+  max-width: 50ch;
+  z-index: 100;
+  text-align: center;
+  overflow: auto;
+  color: white;
+  background-color: rgba(31, 107, 170, 0.4);  
+}
+
+.bottomInfoBox {
+  position: absolute;
+  top: 100px;
+  left: 120px;
+}
+
+body {
+  background-color: #6aba7f;
+  font-family: Arial, Helvetica, sans-serif;
+}
